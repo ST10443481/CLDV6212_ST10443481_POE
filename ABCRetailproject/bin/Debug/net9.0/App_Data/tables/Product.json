@@ -1,0 +1,62 @@
+[
+  {
+    "PartitionKey": "Product",
+    "RowKey": "a1a7ca83-e7e1-43bd-8061-68db61d3b986",
+    "Timestamp": "2025-08-27T19:04:15.3927134+00:00",
+    "ETag": null,
+    "ProductId": "",
+    "ProductName": "Iphone 12 mini",
+    "Description": "Iphone 12 mini\r\nIOS 18\r\n6\u0022 display \r\nface ID\r\n12 mp camera",
+    "Price": 6500.00,
+    "StockAvailable": 20,
+    "ImageUrl": "/media/b5831184b26946899fdabe5fcfe1c89f_12 mini.jpg"
+  },
+  {
+    "PartitionKey": "Product",
+    "RowKey": "8e19fb46-8901-42b0-95b6-13867a3626be",
+    "Timestamp": "2025-08-27T19:06:40.644747+00:00",
+    "ETag": null,
+    "ProductId": "",
+    "ProductName": "Iphone 14 ",
+    "Description": "Iphone 14\r\nIOS 18\r\n6\u00272\u0022 display\r\n14 mp camera \r\n128 GB",
+    "Price": 12000.00,
+    "StockAvailable": 15,
+    "ImageUrl": "/media/a22a6ae3c0484da781d8f4c67e6efcb2_iphone 14"
+  },
+  {
+    "PartitionKey": "Product",
+    "RowKey": "06db7e84-954b-4ef6-8e01-a858495955f2",
+    "Timestamp": "2025-08-27T19:09:43.299193+00:00",
+    "ETag": null,
+    "ProductId": "",
+    "ProductName": "Samsung S1 Pocket",
+    "Description": "samsung \r\nandroid os 9\r\n5.6\u0022 display\r\n64 GB",
+    "Price": 1000.00,
+    "StockAvailable": 45,
+    "ImageUrl": "/media/7c9514001e1740d2837df3a0cecb6cb2_s1 pocket.jpg"
+  },
+  {
+    "PartitionKey": "Product",
+    "RowKey": "e91ccd66-50ab-4879-b037-5072eadf29df",
+    "Timestamp": "2025-08-27T19:11:54.3803696+00:00",
+    "ETag": null,
+    "ProductId": "",
+    "ProductName": "Samsung S20",
+    "Description": "Samsung\r\nAndroid os 20\r\n6.2\u0022 Display\r\n128 GB",
+    "Price": 12000.00,
+    "StockAvailable": 20,
+    "ImageUrl": "/media/5c2733a0d7df479199c0cd4b3d18ba4d_s20"
+  },
+  {
+    "PartitionKey": "Product",
+    "RowKey": "e83f1740-5648-4a24-9a9b-a7249afd09c3",
+    "Timestamp": "2025-08-27T19:15:05.6730541+00:00",
+    "ETag": null,
+    "ProductId": "",
+    "ProductName": "Powerball Plus",
+    "Description": "Stand a chance to win this weeks R450m JACKPOT!!!!",
+    "Price": 20.00,
+    "StockAvailable": 100,
+    "ImageUrl": "/media/ac3a69f9f02743faaa28df4ef3dd3266_lotto.jpg"
+  }
+]

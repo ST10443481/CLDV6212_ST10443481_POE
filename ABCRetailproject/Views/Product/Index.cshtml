@@ -1,0 +1,42 @@
+﻿@model List<ABCRetailproject.Models.Product>
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Products</h2>
+    <a class="btn btn-primary" href="/Product/Create">Add Product</a>
+</div>
+<div class="card">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Image</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.ProductName</td>
+                        <td>R @p.Price</td>
+                        <td>@p.StockAvailable</td>
+                        <td style="width:120px">
+                            @if (!string.IsNullOrEmpty(p.ImageUrl))
+                            {
+                                <img src="@p.ImageUrl" style="height:60px" class="rounded" />
+                            }
+                        </td>
+                        <td class="text-end">
+                            <a class="btn btn-sm btn-outline-secondary" href="/Product/Edit/@p.RowKey">Edit</a>
+                            <form method="post" action="/Product/Delete/@p.RowKey" class="d-inline" onsubmit="return confirm('Delete this product?');">
+                                <button class="btn btn-sm btn-outline-danger" type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

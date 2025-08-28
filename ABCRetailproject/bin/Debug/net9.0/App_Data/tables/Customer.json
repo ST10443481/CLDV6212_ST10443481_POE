@@ -1,0 +1,62 @@
+[
+  {
+    "PartitionKey": "Customer",
+    "RowKey": "dcb4fd23-7bf9-409a-b3f3-0987b6e1b55d",
+    "Timestamp": "2025-08-27T19:22:25.8404578+00:00",
+    "ETag": null,
+    "CustomerId": "",
+    "Name": "Thando",
+    "Surname": "Futwa",
+    "Username": "thand0burner",
+    "Email": "thandoburner@gmail.com",
+    "ShippingAddress": "144 Peter road, Ruimsig, Roodeport"
+  },
+  {
+    "PartitionKey": "Customer",
+    "RowKey": "b2938f30-2ebe-479f-94be-4815b2777515",
+    "Timestamp": "2025-08-27T19:21:34.6704393+00:00",
+    "ETag": null,
+    "CustomerId": "",
+    "Name": "Moneri",
+    "Surname": "Mali",
+    "Username": "momo1",
+    "Email": "momo@icloud.com",
+    "ShippingAddress": "123 ABC Drive, Clifton, Cape Town"
+  },
+  {
+    "PartitionKey": "Customer",
+    "RowKey": "c266c262-81a1-4aa4-baae-cc2606b757e0",
+    "Timestamp": "2025-08-27T19:17:26.9519373+00:00",
+    "ETag": null,
+    "CustomerId": "",
+    "Name": "Josh",
+    "Surname": "Gombs",
+    "Username": "BigGombs123",
+    "Email": "Gombs@gmail.com",
+    "ShippingAddress": "32 River Road, Hatfield, Pretoria"
+  },
+  {
+    "PartitionKey": "Customer",
+    "RowKey": "0ecbcdc1-dfbb-4fff-a139-fe464b42ac21",
+    "Timestamp": "2025-08-27T19:19:39.455193+00:00",
+    "ETag": null,
+    "CustomerId": "",
+    "Name": "Agang",
+    "Surname": "Molathlegi",
+    "Username": "OmphilesAccount",
+    "Email": "omphile123@imconnect.edu.za",
+    "ShippingAddress": "41 Education Street, Pimville Zone 4, Soweto"
+  },
+  {
+    "PartitionKey": "Customer",
+    "RowKey": "90bbeca5-6cdf-4500-b48b-ad3f1b044340",
+    "Timestamp": "2025-08-27T19:21:05.6532419+00:00",
+    "ETag": null,
+    "CustomerId": "",
+    "Name": "Mohlibudi",
+    "Surname": "Moabelo",
+    "Username": "Hlubsofthenorth",
+    "Email": "Lethi@gamil.com",
+    "ShippingAddress": "56 Hennessy Avenue, Bryanston, Sandton"
+  }
+]
